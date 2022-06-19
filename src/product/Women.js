@@ -112,7 +112,7 @@ const products = [
           </div>
         </div>
         <div class="flex space-x-2 justify-center">
-          <a href='StoreNav'>
+          <a href='Home'>
           <button
             type="button"
             data-mdb-ripple="true"
