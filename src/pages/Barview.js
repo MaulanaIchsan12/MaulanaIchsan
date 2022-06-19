@@ -1,22 +1,22 @@
 const products = [
     {
       id: 1,
-      href: 'Topsm',
+      href: 'Men',
       imageSrc: 'https://magento.eigeradventure.com/media/wysiwyg/ramon.jpg',
     },
     {
         id: 1,
-        href: 'Topsw',
+        href: 'Women',
         imageSrc: 'https://magento.eigeradventure.com/media/wysiwyg/woman.jpg',
       },
       {
         id: 1,
-        href: '#',
+        href: 'Newproduct',
         imageSrc: 'https://magento.eigeradventure.com/media/wysiwyg/Eiger_Kids_Edit_cropped.jpg',
       },
       {
         id: 1,
-        href: '#',
+        href: 'Men',
         imageSrc: 'https://magento.eigeradventure.com/media/wysiwyg/rucksack.jpg',
       },
     // More products...

@@ -6,11 +6,11 @@ import Logo from '../images/Logo.png'
 
 const navigation = [
   { name: 'Home', href: 'Home', current: false },
+  { name: 'New Product', href: 'Newproduct', current: false },
   { name: 'Men', href: 'Men', current: false },
   { name: 'Women', href: 'Women', current: false, },
-  { name: 'New Product', href: 'Product', current: false },
-  { name: 'Login', href: 'Login', current: false },
   { name: 'API', href: 'api', current: false },
+  { name: 'Login', href: 'Login', current: false },
 ]
 
 function classNames(...classes) {
