@@ -1,8 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Routing API
-const API = lazy(() => import('./API/api'));
 /* Routing Components */
 const Navbar = lazy(() => import('./components/Navbar'));
 const Home = lazy(() => import('./components/Home'));
@@ -12,13 +10,10 @@ const Banners = lazy(() => import('./pages/Banners'));
 // Routing Product
 const Men = lazy(() => import('./product/Men'));
 const Women = lazy(() => import('./product/Women'));
-const Newproduct = lazy(() => import('./product/Newproduct'));
 const App = () => (
 <Router>
  <Suspense fallback={<div>Loading...</div>}>
  <Routes>
- {/* Routing API */}
- <Route path="api" element={<API />} />
  {/* Routing Components */}
  <Route path="/" element={<Home />} />
  <Route path="Navbar" element={<Navbar />} />
@@ -29,8 +24,6 @@ const App = () => (
  {/* Routing Product */}
  <Route path="Men" element={<Men />} />
  <Route path="Women" element={<Women />} />
- <Route path="Newproduct" element={<Newproduct />} />
-
  </Routes>
  </Suspense>
 </Router>

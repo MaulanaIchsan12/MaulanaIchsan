@@ -5,11 +5,10 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Logo from '../images/Logo.png'
 
 const navigation = [
+  // { name: 'Home', href: 'Home', current: false },
   { name: 'Home', href: 'Home', current: false },
-  { name: 'New Product', href: 'Newproduct', current: false },
   { name: 'Men', href: 'Men', current: false },
   { name: 'Women', href: 'Women', current: false, },
-  { name: 'API', href: 'api', current: false },
   { name: 'Login', href: 'Login', current: false },
 ]
 
